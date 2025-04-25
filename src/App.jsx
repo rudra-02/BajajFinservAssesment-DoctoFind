@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
+import Navbar from './components/Navbar';
 import SearchBar from './components/SearchBar';
 import FilterPanel from './components/FilterPanel';
 import DoctorList from './components/DoctorList';
@@ -132,6 +133,7 @@ function App() {
   
   return (
     <div className="app">
+      <Navbar />
       <header className="app-header">
         <SearchBar 
           searchQuery={searchQuery} 
@@ -163,4 +165,4 @@ function App() {
   );
 }
 
-export default App; 
+export default App;
