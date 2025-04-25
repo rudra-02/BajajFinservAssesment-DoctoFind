@@ -1,0 +1,5 @@
+<h1 className="section-title">Find Doctors</h1>
+<button className="btn btn-primary">Book Appointment</button>
+<div className="card">
+  {/* Content */}
+}
